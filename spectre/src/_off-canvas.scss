@@ -46,7 +46,7 @@ $off-canvas-breakpoint: $size-lg !default;
   }
 
   .off-canvas-overlay {
-    background: rgba($dark-color, .1);
+    background: rgba($dark-color, .4);
     border-color: transparent;
     border-radius: 0;
     bottom: 0;
@@ -80,7 +80,7 @@ $off-canvas-breakpoint: $size-lg !default;
       .off-canvas-toggle {
         display: none;
       }
-  
+
       .off-canvas-sidebar {
         flex: 0 0 auto;
         position: relative;
