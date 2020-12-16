@@ -57,14 +57,14 @@
 }
 
 .docs-sidebar .accordion input ~ .accordion-header {
-  color: #232f4e;
+  color: #455060;
   font-size: .65rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .docs-sidebar .accordion input:checked ~ .accordion-header {
-  color: #2a3a60;
+  color: #505c6e;
 }
 
 .docs-sidebar .accordion .menu .menu-item {
@@ -74,7 +74,7 @@
 
 .docs-sidebar .accordion .menu .menu-item > a {
   background: transparent;
-  color: #2a3a60;
+  color: #66758c;
   display: inline-block;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .docs-content .anchor {
-  color: #6363dd;
+  color: #6362dc;
   display: none;
   margin-left: .2rem;
   padding: 0 .2rem;
@@ -116,8 +116,8 @@
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .docs-content .s-title,
   .docs-content .s-subtitle {
-    position: sticky;
     position: -webkit-sticky;
+    position: sticky;
     top: 0;
     z-index: 99;
   }
@@ -152,21 +152,21 @@
 
 .docs-content .docs-demo .card {
   border: 0;
-  box-shadow: 0 .25rem 1rem rgba(19, 26, 43, .15);
+  box-shadow: 0 .25rem 1rem rgba(48, 55, 66, .15);
   height: 100%;
 }
 
 .docs-content .column {
-  padding: .4rem;
+  padding: .8rem;
 }
 
 .docs-content .docs-block {
-  border-radius: .2rem;
+  border-radius: .05rem;
   padding: .4rem;
 }
 
 .docs-content .docs-block.bg-gray {
-  background: #eaeef6;
+  background: #eef0f3;
 }
 
 .docs-content .docs-shape {
@@ -190,7 +190,7 @@
 }
 
 .docs-content .docs-color {
-  border-radius: .2rem;
+  border-radius: .05rem;
   margin: .25rem 0;
   padding: 5rem .5rem .5rem;
 }
@@ -201,18 +201,18 @@
 }
 
 .docs-content .code .hljs-tag {
-  color: #2a3a60;
+  color: #505c6e;
 }
 
 .docs-content .code .hljs-comment {
-  color: #8b9ecc;
+  color: #bcc3ce;
 }
 
 .docs-content .code .hljs-title,
 .docs-content .code .hljs-class,
 .docs-content .code .hljs-string,
 .docs-content .code .hljs-number {
-  color: #5756da;
+  color: #5755d9;
 }
 
 .docs-content .code .hljs-name,
@@ -225,7 +225,7 @@
 
 .docs-content .code .hljs-value,
 .docs-content .code .hljs-hexcolor {
-  color: #2a3a60;
+  color: #505c6e;
 }
 
 .docs-content .c-select-all {
@@ -253,11 +253,11 @@
 .docs-content .example-tile-icon {
   align-content: space-around;
   align-items: center;
-  background: #5756da;
-  border-radius: .2rem;
+  background: #5755d9;
+  border-radius: .05rem;
   color: #fff;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-align: center;
   -ms-flex-line-pack: distribute;
   font-size: 1.2rem;
@@ -283,14 +283,14 @@
 }
 
 .docs-content .off-canvas .off-canvas-toggle {
-  left: .4rem;
+  left: .8rem;
   position: absolute;
-  top: .4rem;
+  top: .8rem;
   z-index: 1;
 }
 
 .docs-brand {
-  color: #5756da;
+  color: #5755d9;
   height: 2rem;
   left: 1.5rem;
   position: fixed;
@@ -299,9 +299,9 @@
 
 .docs-brand .docs-logo {
   align-items: center;
-  border-radius: .2rem;
-  display: inline-flex;
+  border-radius: .05rem;
   display: -ms-inline-flexbox;
+  display: inline-flex;
   -ms-flex-align: center;
   font-size: .7rem;
   height: 2rem;
@@ -331,20 +331,20 @@
 }
 
 .docs-footer {
-  color: #8b9ecc;
+  color: #bcc3ce;
   padding: .5rem;
 }
 
 .docs-footer a {
-  color: #2a3a60;
+  color: #66758c;
 }
 
 .docs-ad {
-  background: #f5f7fb;
-  border-radius: .2rem;
+  background: #f7f8f9;
+  border-radius: .05rem;
   display: block;
   margin: 2rem 0;
-  padding: .4rem;
+  padding: .8rem;
   position: relative;
 }
 
@@ -358,13 +358,13 @@
 }
 
 .docs-ad .carbon-wrap .carbon-text {
-  color: #2a3a60;
+  color: #66758c;
   display: block;
   font-size: .7rem;
 }
 
 .docs-ad .carbon-poweredby {
-  color: #8b9ecc;
+  color: #bcc3ce;
   font-size: .7rem;
 }
 
@@ -379,11 +379,11 @@
 }
 
 .section-hero .docs-brand h2 {
-  color: #5756da;
+  color: #5755d9;
 }
 
 .section-hero .column {
-  padding: .4rem;
+  padding: .8rem;
 }
 
 .section-ads {
@@ -404,18 +404,18 @@
 }
 
 .section-features .column {
-  padding: .4rem;
+  padding: .8rem;
 }
 
 .section-footer {
-  color: #8b9ecc;
+  color: #bcc3ce;
   padding: 1.8rem .75rem 1rem;
   position: relative;
   z-index: 200;
 }
 
 .section-footer a {
-  color: #2a3a60;
+  color: #66758c;
 }
 
 .grid-hero {
@@ -424,14 +424,14 @@
 }
 
 .grid-hero h1 {
-  color: #1b253d;
+  color: #3b4351;
   font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
 
 .grid-hero h2 {
-  color: #232f4e;
+  color: #455060;
   font-size: .9rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -447,12 +447,12 @@
 .grid-hero .card {
   background: none;
   border: 0;
-  color: #324572;
+  color: #5b687d;
   padding: .5rem;
 }
 
 .grid-hero .card .card-title {
-  color: #5756da;
+  color: #5755d9;
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 0;
@@ -480,7 +480,7 @@
   .docs-navbar {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    background: rgba(245, 247, 251, .65);
+    background: rgba(247, 248, 249, .65);
     left: 0;
   }
   .docs-content {
@@ -742,7 +742,7 @@
   background: transparent;
   border: none;
   border-radius: 4px;
-  box-shadow: 0 .05rem .2rem rgba(19, 26, 43, .3); 
+  box-shadow: 0 .05rem .2rem rgba(48, 55, 66, .3); 
   height: auto;
   margin: 6px 0 0;
   max-width: 600px;
@@ -770,7 +770,7 @@
 
 .algolia-autocomplete .ds-dropdown-menu .ds-suggestion.ds-cursor .algolia-docsearch-suggestion.suggestion-layout-simple,
 .algolia-autocomplete .ds-dropdown-menu .ds-suggestion.ds-cursor .algolia-docsearch-suggestion:not(.suggestion-layout-simple) .algolia-docsearch-suggestion--content {
-  background-color: rgba(87, 86, 218, .05);
+  background-color: rgba(87, 85, 217, .05);
 }
 
 .algolia-autocomplete .ds-dropdown-menu [class^=ds-dataset-] {
@@ -787,7 +787,7 @@
 
 .algolia-autocomplete .algolia-docsearch-suggestion {
   background: #fff;
-  color: #131a2b;
+  color: #303742;
   display: block;
   overflow: hidden; 
   padding: 0 8px;
@@ -795,22 +795,22 @@
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--highlight {
-  background: rgba(87, 86, 218, .1);
-  color: #5756da;
+  background: rgba(87, 85, 217, .1);
+  color: #5755d9;
   padding: .1em .05em;
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--category-header-lvl0 .algolia-docsearch-suggestion--highlight,
 .algolia-autocomplete .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--category-header-lvl1 .algolia-docsearch-suggestion--highlight {
   background: inherit;
-  box-shadow: inset 0 -2px 0 0 rgba(87, 86, 218, .8);
+  box-shadow: inset 0 -2px 0 0 rgba(87, 85, 217, .8);
   color: inherit; 
   padding: 0 0 1px;
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--text .algolia-docsearch-suggestion--highlight {
   background: inherit;
-  box-shadow: inset 0 -2px 0 0 rgba(87, 86, 218, .8);
+  box-shadow: inset 0 -2px 0 0 rgba(87, 85, 217, .8);
   color: inherit; 
   padding: 0 0 1px;
 }
@@ -825,7 +825,7 @@
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--content:before {
-  background: #f5f7fb;
+  background: #f7f8f9;
   content: "";
   display: block;
   height: 100%;
@@ -836,8 +836,8 @@
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--category-header {
-  border-bottom: 1px solid #f5f7fb;
-  color: #131a2b; 
+  border-bottom: 1px solid #f7f8f9;
+  color: #303742; 
   display: none;
   font-size: 1em;
   margin-top: 8px;
@@ -852,7 +852,7 @@
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column {
-  color: #8b9ecc;
+  color: #bcc3ce;
   float: left;
   font-size: .9em;
   padding: 5.33333px 10.66667px;
@@ -863,7 +863,7 @@
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column:before {
-  background: #f5f7fb;
+  background: #f7f8f9;
   content: "";
   display: block;
   height: 100%;
@@ -878,13 +878,13 @@
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--title {
-  color: #131a2b;
+  color: #303742;
   font-size: .9em;
   font-weight: 700;
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--text {
-  color: #2a3a60; 
+  color: #66758c; 
   display: block;
   font-size: .85em;
   line-height: 1.2em;
