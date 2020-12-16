@@ -302,7 +302,7 @@ a {
 }
 
 a:focus {
-  box-shadow: 0 0 0 .1rem rgba(87, 86, 218, .2);
+  box-shadow: 0 0 0 .17rem rgba(87, 86, 218, .2);
 }
 
 a:focus,
@@ -576,7 +576,7 @@ html:lang(ko),
 }
 
 .btn:focus {
-  box-shadow: 0 0 0 .1rem rgba(87, 86, 218, .2);
+  box-shadow: 0 0 0 .17rem rgba(87, 86, 218, .2);
 }
 
 .btn:focus,
@@ -640,7 +640,7 @@ html:lang(ko),
 }
 
 .btn.btn-success:focus {
-  box-shadow: 0 0 0 .1rem rgba(50, 182, 67, .2);
+  box-shadow: 0 0 0 .17rem rgba(50, 182, 67, .2);
 }
 
 .btn.btn-success:focus,
@@ -669,7 +669,7 @@ html:lang(ko),
 }
 
 .btn.btn-error:focus {
-  box-shadow: 0 0 0 .1rem rgba(232, 86, 0, .2);
+  box-shadow: 0 0 0 .17rem rgba(232, 86, 0, .2);
 }
 
 .btn.btn-error:focus,
@@ -857,7 +857,7 @@ legend {
 
 .form-input:focus {
   border-color: #5756da; 
-  box-shadow: 0 0 0 .1rem rgba(87, 86, 218, .2);
+  box-shadow: 0 0 0 .17rem rgba(87, 86, 218, .2);
 }
 
 .form-input:-ms-input-placeholder {
@@ -935,7 +935,7 @@ textarea.form-input.input-sm {
 
 .form-select:focus {
   border-color: #5756da; 
-  box-shadow: 0 0 0 .1rem rgba(87, 86, 218, .2);
+  box-shadow: 0 0 0 .17rem rgba(87, 86, 218, .2);
 }
 
 .form-select::-ms-expand {
@@ -1028,7 +1028,7 @@ textarea.form-input.input-sm {
 .form-radio input:focus + .form-icon,
 .form-switch input:focus + .form-icon {
   border-color: #5756da; 
-  box-shadow: 0 0 0 .1rem rgba(87, 86, 218, .2);
+  box-shadow: 0 0 0 .17rem rgba(87, 86, 218, .2);
 }
 
 .form-checkbox input:checked + .form-icon,
@@ -1252,7 +1252,7 @@ textarea.form-input.input-sm {
 .form-input.is-success:focus,
 .has-success .form-select:focus,
 .form-select.is-success:focus {
-  box-shadow: 0 0 0 .1rem rgba(50, 182, 67, .2);
+  box-shadow: 0 0 0 .17rem rgba(50, 182, 67, .2);
 }
 
 .has-error .form-input,
@@ -1267,7 +1267,7 @@ textarea.form-input.input-sm {
 .form-input.is-error:focus,
 .has-error .form-select:focus,
 .form-select.is-error:focus {
-  box-shadow: 0 0 0 .1rem rgba(232, 86, 0, .2);
+  box-shadow: 0 0 0 .17rem rgba(232, 86, 0, .2);
 }
 
 .has-error .form-checkbox .form-icon,
@@ -1296,7 +1296,7 @@ textarea.form-input.input-sm {
 .has-error .form-switch input:focus + .form-icon,
 .form-switch.is-error input:focus + .form-icon {
   border-color: #e85600; 
-  box-shadow: 0 0 0 .1rem rgba(232, 86, 0, .2);
+  box-shadow: 0 0 0 .17rem rgba(232, 86, 0, .2);
 }
 
 .has-error .form-checkbox input:indeterminate + .form-icon,
@@ -1315,12 +1315,12 @@ textarea.form-input.input-sm {
 
 .form-input:not(:-ms-input-placeholder):invalid:focus {
   background: #fffaf7; 
-  box-shadow: 0 0 0 .1rem rgba(232, 86, 0, .2);
+  box-shadow: 0 0 0 .17rem rgba(232, 86, 0, .2);
 }
 
 .form-input:not(:placeholder-shown):invalid:focus {
   background: #fffaf7; 
-  box-shadow: 0 0 0 .1rem rgba(232, 86, 0, .2);
+  box-shadow: 0 0 0 .17rem rgba(232, 86, 0, .2);
 }
 
 .form-input:not(:-ms-input-placeholder):invalid + .form-input-hint {
@@ -3777,7 +3777,7 @@ a.text-error:visited {
 
 .form-autocomplete .form-autocomplete-input.is-focused {
   border-color: #5756da; 
-  box-shadow: 0 0 0 .1rem rgba(87, 86, 218, .2);
+  box-shadow: 0 0 0 .17rem rgba(87, 86, 218, .2);
 }
 
 .form-autocomplete .form-autocomplete-input .form-input {
@@ -3893,7 +3893,7 @@ a.text-error:visited {
 }
 
 .calendar .calendar-date .date-item:focus {
-  box-shadow: 0 0 0 .1rem rgba(87, 86, 218, .2);
+  box-shadow: 0 0 0 .17rem rgba(87, 86, 218, .2);
 }
 
 .calendar .calendar-date .date-item:focus,
@@ -4661,7 +4661,7 @@ a.text-error:visited {
 }
 
 .slider:focus {
-  box-shadow: 0 0 0 .1rem rgba(87, 86, 218, .2);
+  box-shadow: 0 0 0 .17rem rgba(87, 86, 218, .2);
   outline: none;
 }
 
