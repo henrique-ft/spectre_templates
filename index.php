@@ -24,7 +24,7 @@ body { margin-top: 67px; }
   <body>
     <header class="p-2 navbar bg-dark">
       <section class="navbar-section">
-        <a class="show-lg off-canvas-toggle btn btn-lg btn-primary btn-action" href="#sidebar-id">
+        <a class="show-lg off-canvas-toggle btn btn-primary btn-action" href="#sidebar-id">
           <i class="icon icon-menu"></i>
         </a>
         <a href="..." class="navbar-brand mr-2 text-light">Spectre.css</a>
@@ -33,8 +33,8 @@ body { margin-top: 67px; }
       </section>
       <section class="navbar-section">
         <div class="input-group input-inline">
-          <input class="form-input input-lg" type="text" placeholder="search">
-          <button class="btn btn-lg btn-primary input-group-btn"><i class="icon icon-search"></i></button>
+          <input class="form-input" type="text" placeholder="search">
+          <button class="btn btn-primary input-group-btn"><i class="icon icon-search"></i></button>
         </div>
       </section>
     </header>
@@ -96,40 +96,32 @@ body { margin-top: 67px; }
           <thead>
             <tr>
               <th>name</th>
-              <th>genre</th>
-              <th>release date</th>
               <th></th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>The Shawshank Redemption</td>
-              <td>Crime, Drama</td>
-              <td>14 October 1994</td>
               <td>
-                <button class="btn btn-lg"><i class="icon icon-link"></i></button>
-                <button class="btn btn-lg"><i class="icon icon-edit"></i></button>
-                <button class="btn btn-lg"><i class="icon icon-delete"></i></button>
+                <button class="btn"><i class="icon icon-link"></i></button>
+                <button class="btn"><i class="icon icon-edit"></i></button>
+                <button class="btn"><i class="icon icon-delete"></i></button>
               </td>
             </tr>
             <tr>
               <td>The Shawshank Redemption</td>
-              <td>Crime, Drama</td>
-              <td>14 October 1994</td>
               <td>
-                <button class="btn btn-lg"><i class="icon icon-link"></i></button>
-                <button class="btn btn-lg"><i class="icon icon-edit"></i></button>
-                <button class="btn btn-lg"><i class="icon icon-delete"></i></button>
+                <button class="btn"><i class="icon icon-link"></i></button>
+                <button class="btn"><i class="icon icon-edit"></i></button>
+                <button class="btn"><i class="icon icon-delete"></i></button>
               </td>
             </tr>
             <tr>
               <td>The Shawshank Redemption</td>
-              <td>Crime, Drama</td>
-              <td>14 October 1994</td>
               <td>
-                <button class="btn btn-lg"><i class="icon icon-link"></i></button>
-                <button class="btn btn-lg"><i class="icon icon-edit"></i></button>
-                <button class="btn btn-lg"><i class="icon icon-delete"></i></button>
+                <button class="btn"><i class="icon icon-link"></i></button>
+                <button class="btn"><i class="icon icon-edit"></i></button>
+                <button class="btn"><i class="icon icon-delete"></i></button>
               </td>
             </tr>
           </tbody>
@@ -159,7 +151,7 @@ body { margin-top: 67px; }
 
             <div class="row">
               <div class="col-6 col-sm-12">
-                <button class="my-2 btn btn-primary btn-lg float-right">success button</button>
+                <button class="my-2 btn btn-primary float-right">success button</button>
               </div>
             </div>
           </fieldset>

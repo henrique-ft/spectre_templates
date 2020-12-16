@@ -52,7 +52,7 @@
 
 .calendar {
   border: .05rem solid #dadee4;
-  border-radius: .05rem;
+  border-radius: .1rem;
   display: block;
   min-width: 280px;
 }
@@ -60,8 +60,8 @@
 .calendar .calendar-nav {
   align-items: center;
   background: #f7f8f9;
-  border-top-left-radius: .05rem;
-  border-top-right-radius: .05rem;
+  border-top-left-radius: .1rem;
+  border-top-right-radius: .1rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -261,7 +261,7 @@
 }
 
 .calendar.calendar-lg .calendar-event {
-  border-radius: .05rem;
+  border-radius: .1rem;
   display: block;
   font-size: .7rem;
   margin: .1rem auto;
@@ -567,7 +567,7 @@
   appearance: none;
   background: #f7f8f9;
   border: 0;
-  border-radius: .05rem;
+  border-radius: .1rem;
   display: block;
   height: .8rem; 
   width: 100%;
@@ -581,7 +581,7 @@
 .meter::-webkit-meter-optimum-value,
 .meter::-webkit-meter-suboptimum-value,
 .meter::-webkit-meter-even-less-good-value {
-  border-radius: .05rem;
+  border-radius: .1rem;
 }
 
 .meter::-webkit-meter-bar {
@@ -604,7 +604,7 @@
 .meter:-moz-meter-optimum,
 .meter:-moz-meter-sub-optimum,
 .meter:-moz-meter-sub-sub-optimum {
-  border-radius: .05rem;
+  border-radius: .1rem;
 }
 
 .meter:-moz-meter-optimum::-moz-meter-bar {
@@ -659,7 +659,7 @@
 }
 
 .off-canvas .off-canvas-overlay {
-  background: rgba(48, 55, 66, .1);
+  background: rgba(48, 55, 66, .4);
   border-color: transparent;
   border-radius: 0;
   bottom: 0;
@@ -850,7 +850,7 @@
   appearance: none;
   background: #eef0f3;
   border: 0;
-  border-radius: .05rem;
+  border-radius: .1rem;
   color: #5755d9;
   height: .2rem;
   position: relative;
@@ -859,17 +859,17 @@
 
 .progress::-webkit-progress-bar {
   background: transparent;
-  border-radius: .05rem;
+  border-radius: .1rem;
 }
 
 .progress::-webkit-progress-value {
   background: #5755d9;
-  border-radius: .05rem;
+  border-radius: .1rem;
 }
 
 .progress::-moz-progress-bar {
   background: #5755d9;
-  border-radius: .05rem;
+  border-radius: .1rem;
 }
 
 .progress:indeterminate {
@@ -973,21 +973,21 @@
 
 .slider::-webkit-slider-runnable-track {
   background: #eef0f3;
-  border-radius: .05rem;
+  border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-moz-range-track {
   background: #eef0f3;
-  border-radius: .05rem;
+  border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-track {
   background: #eef0f3;
-  border-radius: .05rem;
+  border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
