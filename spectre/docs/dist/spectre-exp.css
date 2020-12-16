@@ -16,8 +16,8 @@
 }
 
 .form-autocomplete .form-autocomplete-input.is-focused {
-  border-color: blue; 
-  box-shadow: 0 0 0 .1rem rgba(0, 0, 255, .2);
+  border-color: #5756da; 
+  box-shadow: 0 0 0 .1rem rgba(87, 86, 218, .2);
 }
 
 .form-autocomplete .form-autocomplete-input .form-input {
@@ -51,7 +51,7 @@
 }
 
 .calendar {
-  border: .05rem solid #8c8c8c;
+  border: .05rem solid #8b9ecc;
   border-radius: .05rem;
   display: block;
   min-width: 280px;
@@ -59,7 +59,7 @@
 
 .calendar .calendar-nav {
   align-items: center;
-  background: #d9d9d9;
+  background: #f5f7fb;
   border-top-left-radius: .05rem;
   border-top-right-radius: .05rem;
   display: flex;
@@ -88,15 +88,15 @@
 }
 
 .calendar .calendar-header {
-  background: #d9d9d9;
-  border-bottom: .05rem solid #8c8c8c;
-  color: #8c8c8c;
+  background: #f5f7fb;
+  border-bottom: .05rem solid #8b9ecc;
+  color: #8b9ecc;
   font-size: .7rem;
   text-align: center;
 }
 
 .calendar .calendar-body {
-  color: #262626;
+  color: #2a3a60;
 }
 
 .calendar .calendar-date {
@@ -111,7 +111,7 @@
   background: transparent;
   border: .05rem solid transparent;
   border-radius: 50%;
-  color: #262626;
+  color: #2a3a60;
   cursor: pointer;
   font-size: .7rem;
   height: 1.4rem;
@@ -129,25 +129,25 @@
 
 .calendar .calendar-date .date-item.date-today {
   border-color: #f7f7f7;
-  color: blue;
+  color: #5756da;
 }
 
 .calendar .calendar-date .date-item:focus {
-  box-shadow: 0 0 0 .1rem rgba(0, 0, 255, .2);
+  box-shadow: 0 0 0 .1rem rgba(87, 86, 218, .2);
 }
 
 .calendar .calendar-date .date-item:focus,
 .calendar .calendar-date .date-item:hover {
   background: white;
   border-color: #f7f7f7;
-  color: blue;
+  color: #5756da;
   text-decoration: none;
 }
 
 .calendar .calendar-date .date-item:active,
 .calendar .calendar-date .date-item.active {
-  background: #0000f0;
-  border-color: #0000d6;
+  background: #4b49d7;
+  border-color: #3635d3;
   color: #fff;
 }
 
@@ -199,13 +199,13 @@
 
 .calendar .calendar-range.range-start .date-item,
 .calendar .calendar-range.range-end .date-item {
-  background: #0000f0;
-  border-color: #0000d6;
+  background: #4b49d7;
+  border-color: #3635d3;
   color: #fff;
 }
 
 .calendar .calendar-range .date-item {
-  color: blue;
+  color: #5756da;
 }
 
 .calendar.calendar-lg .calendar-body {
@@ -213,8 +213,8 @@
 }
 
 .calendar.calendar-lg .calendar-body .calendar-date {
-  border-bottom: .05rem solid #8c8c8c;
-  border-right: .05rem solid #8c8c8c;
+  border-bottom: .05rem solid #8b9ecc;
+  border-right: .05rem solid #8b9ecc;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-direction: column;
@@ -292,11 +292,11 @@
 .carousel .carousel-locator:nth-of-type(6):checked ~ .carousel-nav .nav-item:nth-of-type(6),
 .carousel .carousel-locator:nth-of-type(7):checked ~ .carousel-nav .nav-item:nth-of-type(7),
 .carousel .carousel-locator:nth-of-type(8):checked ~ .carousel-nav .nav-item:nth-of-type(8) {
-  color: #d9d9d9;
+  color: #f5f7fb;
 }
 
 .carousel {
-  background: #d9d9d9;
+  background: #f5f7fb;
   display: block;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
@@ -335,9 +335,9 @@
 
 .carousel .carousel-container .item-prev,
 .carousel .carousel-container .item-next {
-  background: rgba(217, 217, 217, .25);
-  border-color: rgba(217, 217, 217, .5);
-  color: #d9d9d9;
+  background: rgba(245, 247, 251, .25);
+  border-color: rgba(245, 247, 251, .5);
+  color: #f5f7fb;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -368,7 +368,7 @@
 }
 
 .carousel .carousel-nav .nav-item {
-  color: rgba(217, 217, 217, .5);
+  color: rgba(245, 247, 251, .5);
   display: block;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -498,7 +498,7 @@
 }
 
 .comparison-slider .comparison-label {
-  background: rgba(0, 0, 0, .5);
+  background: rgba(19, 26, 43, .5);
   bottom: .8rem;
   color: #fff;
   padding: .2rem .4rem;
@@ -535,7 +535,7 @@
 .filter .filter-tag#tag-6:checked ~ .filter-nav .chip[for="tag-6"],
 .filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"],
 .filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"] {
-  background: blue;
+  background: #5756da;
   color: #fff;
 }
 
@@ -565,7 +565,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #d9d9d9;
+  background: #f5f7fb;
   border: 0;
   border-radius: .05rem;
   display: block;
@@ -585,7 +585,7 @@
 }
 
 .meter::-webkit-meter-bar {
-  background: #d9d9d9;
+  background: #f5f7fb;
 }
 
 .meter::-webkit-meter-optimum-value {
@@ -639,7 +639,7 @@
 }
 
 .off-canvas .off-canvas-sidebar {
-  background: #d9d9d9;
+  background: #f5f7fb;
   bottom: 0;
   left: 0;
   min-width: 10rem;
@@ -659,7 +659,7 @@
 }
 
 .off-canvas .off-canvas-overlay {
-  background: rgba(0, 0, 0, .4);
+  background: rgba(19, 26, 43, .4);
   border-color: transparent;
   border-radius: 0;
   bottom: 0;
@@ -706,7 +706,7 @@
 }
 
 .parallax .parallax-content {
-  box-shadow: 0 1rem 2.1rem rgba(0, 0, 0, .3);
+  box-shadow: 0 1rem 2.1rem rgba(19, 26, 43, .3);
   height: auto;
   transform: perspective(1000px);
   transform-style: preserve-3d;
@@ -736,7 +736,7 @@
   left: 0;
   position: absolute;
   text-align: center;
-  text-shadow: 0 0 20px rgba(0, 0, 0, .75);
+  text-shadow: 0 0 20px rgba(19, 26, 43, .75);
   top: 0;
   transform: translateZ(50px) scale(.95);
   transition: transform .4s;
@@ -848,10 +848,10 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #d1d1d1;
+  background: #eaeef6;
   border: 0;
   border-radius: .05rem;
-  color: blue;
+  color: #5756da;
   height: .2rem;
   position: relative;
   width: 100%;
@@ -863,18 +863,18 @@
 }
 
 .progress::-webkit-progress-value {
-  background: blue;
+  background: #5756da;
   border-radius: .05rem;
 }
 
 .progress::-moz-progress-bar {
-  background: blue;
+  background: #5756da;
   border-radius: .05rem;
 }
 
 .progress:indeterminate {
   animation: progress-indeterminate 1.5s linear infinite;
-  background: #d1d1d1 linear-gradient(to right, blue 30%, #d1d1d1 30%) top left/150% 150% no-repeat;
+  background: #eaeef6 linear-gradient(to right, #5756da 30%, #eaeef6 30%) top left/150% 150% no-repeat;
 }
 
 .progress:indeterminate::-moz-progress-bar {
@@ -901,7 +901,7 @@
 }
 
 .slider:focus {
-  box-shadow: 0 0 0 .1rem rgba(0, 0, 255, .2);
+  box-shadow: 0 0 0 .1rem rgba(87, 86, 218, .2);
   outline: none;
 }
 
@@ -911,7 +911,7 @@
 
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background: blue;
+  background: #5756da;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -922,7 +922,7 @@
 }
 
 .slider::-moz-range-thumb {
-  background: blue;
+  background: #5756da;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -932,7 +932,7 @@
 }
 
 .slider::-ms-thumb {
-  background: blue;
+  background: #5756da;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -955,45 +955,45 @@
 
 .slider:disabled::-webkit-slider-thumb,
 .slider.disabled::-webkit-slider-thumb {
-  background: #d9d9d9;
+  background: #f5f7fb;
   transform: scale(1);
 }
 
 .slider:disabled::-moz-range-thumb,
 .slider.disabled::-moz-range-thumb {
-  background: #d9d9d9;
+  background: #f5f7fb;
   transform: scale(1);
 }
 
 .slider:disabled::-ms-thumb,
 .slider.disabled::-ms-thumb {
-  background: #d9d9d9;
+  background: #f5f7fb;
   transform: scale(1);
 }
 
 .slider::-webkit-slider-runnable-track {
-  background: #d1d1d1;
+  background: #eaeef6;
   border-radius: .05rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-moz-range-track {
-  background: #d1d1d1;
+  background: #eaeef6;
   border-radius: .05rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-track {
-  background: #d1d1d1;
+  background: #eaeef6;
   border-radius: .05rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-fill-lower {
-  background: blue;
+  background: #5756da;
 }
 
 .timeline .timeline-item {
@@ -1004,7 +1004,7 @@
 }
 
 .timeline .timeline-item::before {
-  background: #8c8c8c;
+  background: #8b9ecc;
   content: "";
   height: 100%;
   left: 11px;
@@ -1039,7 +1039,7 @@
 }
 
 .timeline .timeline-item .timeline-icon::before {
-  border: .1rem solid blue;
+  border: .1rem solid #5756da;
   border-radius: 50%;
   content: "";
   display: block;
@@ -1051,7 +1051,7 @@
 }
 
 .timeline .timeline-item .timeline-icon.icon-lg {
-  background: blue;
+  background: #5756da;
   line-height: 1.2rem;
 }
 
