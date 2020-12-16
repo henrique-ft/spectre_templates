@@ -5,8 +5,8 @@
 
 .form-autocomplete .form-autocomplete-input {
   align-content: flex-start;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-line-pack: start;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -51,7 +51,7 @@
 }
 
 .calendar {
-  border: .05rem solid #404040;
+  border: .05rem solid #8c8c8c;
   border-radius: .05rem;
   display: block;
   min-width: 280px;
@@ -62,8 +62,8 @@
   background: #d9d9d9;
   border-top-left-radius: .05rem;
   border-top-right-radius: .05rem;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-align: center;
   font-size: .9rem;
   padding: .4rem;
@@ -71,8 +71,8 @@
 
 .calendar .calendar-header,
 .calendar .calendar-body {
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-pack: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -89,7 +89,7 @@
 
 .calendar .calendar-header {
   background: #d9d9d9;
-  border-bottom: .05rem solid #404040;
+  border-bottom: .05rem solid #8c8c8c;
   color: #8c8c8c;
   font-size: .7rem;
   text-align: center;
@@ -213,10 +213,10 @@
 }
 
 .calendar.calendar-lg .calendar-body .calendar-date {
-  border-bottom: .05rem solid #404040;
-  border-right: .05rem solid #404040;
-  display: -ms-flexbox;
+  border-bottom: .05rem solid #8c8c8c;
+  border-right: .05rem solid #8c8c8c;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-direction: column;
   flex-direction: column;
   height: 5.5rem;
@@ -356,8 +356,8 @@
 
 .carousel .carousel-nav {
   bottom: .4rem;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-pack: center;
   justify-content: center;
   left: 50%;
@@ -555,8 +555,8 @@
 }
 
 .filter .filter-body {
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -620,8 +620,8 @@
 }
 
 .off-canvas {
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-flow: nowrap;
   flex-flow: nowrap;
   height: 100%;
@@ -727,8 +727,8 @@
 .parallax .parallax-front {
   align-items: center;
   color: #fff;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-align: center;
   -ms-flex-pack: center;
   height: 100%;
@@ -997,14 +997,14 @@
 }
 
 .timeline .timeline-item {
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   margin-bottom: 1.2rem;
   position: relative;
 }
 
 .timeline .timeline-item::before {
-  background: #404040;
+  background: #8c8c8c;
   content: "";
   height: 100%;
   left: 11px;
@@ -1061,8 +1061,8 @@
 
 .viewer-360 {
   align-items: center;
-  display: -ms-flexbox;
   display: flex;
+  display: -ms-flexbox;
   -ms-flex-align: center;
   -ms-flex-direction: column;
   flex-direction: column;
