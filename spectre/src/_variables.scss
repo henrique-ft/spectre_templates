@@ -5,7 +5,7 @@ $version: "0.5.9";
 $rtl: false !default;
 
 // Core colors
-$primary-color: #5755d9 !default;
+$primary-color: blue !default;
 $primary-color-dark: darken($primary-color, 3%) !default;
 $primary-color-light: lighten($primary-color, 3%) !default;
 $secondary-color: lighten($primary-color, 37.5%) !default;
@@ -13,7 +13,7 @@ $secondary-color-dark: darken($secondary-color, 3%) !default;
 $secondary-color-light: lighten($secondary-color, 3%) !default;
 
 // Gray colors
-$dark-color: #303742 !default;
+$dark-color: black !default;
 $light-color: #fff !default;
 $gray-color: lighten($dark-color, 55%) !default;
 $gray-color-dark: darken($gray-color, 30%) !default;
@@ -22,7 +22,7 @@ $gray-color-light: lighten($gray-color, 20%) !default;
 $border-color: lighten($dark-color, 65%) !default;
 $border-color-dark: darken($border-color, 10%) !default;
 $border-color-light: lighten($border-color, 8%) !default;
-$bg-color: lighten($dark-color, 75%) !default;
+$bg-color: lighten($dark-color, 95%) !default;
 $bg-color-dark: darken($bg-color, 3%) !default;
 $bg-color-light: $light-color !default;
 
@@ -79,7 +79,7 @@ $line-height: 1.2rem !default;
 $layout-spacing: $unit-4 !default;
 $layout-spacing-sm: $unit-2 !default;
 $layout-spacing-lg: $unit-3 !default;
-$border-radius: $unit-h !default;
+$border-radius: $unit-o !default;
 $border-width: $unit-o !default;
 $border-width-lg: $unit-h !default;
 $control-size: $unit-10 !default;
