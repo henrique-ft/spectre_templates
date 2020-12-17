@@ -161,7 +161,7 @@
 }
 
 .docs-content .docs-block {
-  border-radius: .05rem;
+  border-radius: .2rem;
   padding: .4rem;
 }
 
@@ -190,7 +190,7 @@
 }
 
 .docs-content .docs-color {
-  border-radius: .05rem;
+  border-radius: .2rem;
   margin: .25rem 0;
   padding: 5rem .5rem .5rem;
 }
@@ -254,7 +254,7 @@
   align-content: space-around;
   align-items: center;
   background: blue;
-  border-radius: .05rem;
+  border-radius: .2rem;
   color: #fff;
   display: flex;
   display: -ms-flexbox;
@@ -299,7 +299,7 @@
 
 .docs-brand .docs-logo {
   align-items: center;
-  border-radius: .05rem;
+  border-radius: .2rem;
   display: inline-flex;
   display: -ms-inline-flexbox;
   -ms-flex-align: center;
@@ -341,7 +341,7 @@
 
 .docs-ad {
   background: #f2f2f2;
-  border-radius: .05rem;
+  border-radius: .2rem;
   display: block;
   margin: 2rem 0;
   padding: .8rem;
