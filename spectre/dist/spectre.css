@@ -295,25 +295,25 @@ body {
 }
 
 a {
-  color: blue;
+  color: #5959ff;
   outline: none;
   text-decoration: none;
 }
 
 a:focus {
-  box-shadow: 0 0 0 .2rem rgba(0, 0, 255, .2);
+  box-shadow: 0 0 0 .2rem rgba(89, 89, 255, .2);
 }
 
 a:focus,
 a:hover,
 a:active,
 a.active {
-  color: #00c;
+  color: #2626ff;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #33f;
+  color: #8c8cff;
 }
 
 h1,
@@ -554,9 +554,9 @@ html:lang(ko),
   -moz-appearance: none;
   appearance: none;
   background: #fff;
-  border: .05rem solid blue;
+  border: .05rem solid #5959ff;
   border-radius: .05rem;
-  color: blue;
+  color: #5959ff;
   cursor: pointer;
   display: inline-block;
   font-size: .8rem;
@@ -575,20 +575,20 @@ html:lang(ko),
 }
 
 .btn:focus {
-  box-shadow: 0 0 0 .2rem rgba(0, 0, 255, .2);
+  box-shadow: 0 0 0 .2rem rgba(89, 89, 255, .2);
 }
 
 .btn:focus,
 .btn:hover {
-  background: #bfbfff;
-  border-color: #0000f0;
+  background: white;
+  border-color: #4a4aff;
   text-decoration: none;
 }
 
 .btn:active,
 .btn.active {
-  background: #0000f0;
-  border-color: #0000d6;
+  background: #4a4aff;
+  border-color: #3030ff;
   color: #fff;
   text-decoration: none;
 }
@@ -608,22 +608,22 @@ html:lang(ko),
 }
 
 .btn.btn-primary {
-  background: blue;
-  border-color: #0000f0;
+  background: #5959ff;
+  border-color: #4a4aff;
   color: #fff;
 }
 
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
-  background: #0000e6;
-  border-color: #0000d6;
+  background: #4040ff;
+  border-color: #3030ff;
   color: #fff;
 }
 
 .btn.btn-primary:active,
 .btn.btn-primary.active {
-  background: #0000db;
-  border-color: #00c;
+  background: #3535ff;
+  border-color: #2626ff;
   color: #fff;
 }
 
@@ -693,14 +693,14 @@ html:lang(ko),
 .btn.btn-link {
   background: transparent;
   border-color: transparent;
-  color: blue;
+  color: #5959ff;
 }
 
 .btn.btn-link:focus,
 .btn.btn-link:hover,
 .btn.btn-link:active,
 .btn.btn-link.active {
-  color: #00c;
+  color: #2626ff;
 }
 
 .btn.btn-sm {
@@ -855,8 +855,8 @@ legend {
 }
 
 .form-input:focus {
-  border-color: blue; 
-  box-shadow: 0 0 0 .2rem rgba(0, 0, 255, .2);
+  border-color: #5959ff; 
+  box-shadow: 0 0 0 .2rem rgba(89, 89, 255, .2);
 }
 
 .form-input:-ms-input-placeholder {
@@ -933,8 +933,8 @@ textarea.form-input.input-sm {
 }
 
 .form-select:focus {
-  border-color: blue; 
-  box-shadow: 0 0 0 .2rem rgba(0, 0, 255, .2);
+  border-color: #5959ff; 
+  box-shadow: 0 0 0 .2rem rgba(89, 89, 255, .2);
 }
 
 .form-select::-ms-expand {
@@ -1026,15 +1026,15 @@ textarea.form-input.input-sm {
 .form-checkbox input:focus + .form-icon,
 .form-radio input:focus + .form-icon,
 .form-switch input:focus + .form-icon {
-  border-color: blue; 
-  box-shadow: 0 0 0 .2rem rgba(0, 0, 255, .2);
+  border-color: #5959ff; 
+  box-shadow: 0 0 0 .2rem rgba(89, 89, 255, .2);
 }
 
 .form-checkbox input:checked + .form-icon,
 .form-radio input:checked + .form-icon,
 .form-switch input:checked + .form-icon {
-  background: blue;
-  border-color: blue;
+  background: #5959ff;
+  border-color: #5959ff;
 }
 
 .form-checkbox .form-icon,
@@ -1096,8 +1096,8 @@ textarea.form-input.input-sm {
 }
 
 .form-checkbox input:indeterminate + .form-icon {
-  background: blue;
-  border-color: blue;
+  background: #5959ff;
+  border-color: #5959ff;
 }
 
 .form-checkbox input:indeterminate + .form-icon::before {
@@ -1386,13 +1386,13 @@ input.disabled + .form-icon {
 }
 
 .label.label-primary {
-  background: blue;
+  background: #5959ff;
   color: #fff;
 }
 
 .label.label-secondary {
-  background: #bfbfff;
-  color: blue;
+  background: white;
+  color: #5959ff;
 }
 
 .label.label-success {
@@ -2098,7 +2098,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .avatar {
-  background: blue;
+  background: #5959ff;
   border-radius: 50%;
   color: rgba(255, 255, 255, .85);
   display: inline-block;
@@ -2194,7 +2194,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .badge[data-badge]::after,
 .badge:not([data-badge])::after {
-  background: blue;
+  background: #5959ff;
   background-clip: padding-box;
   border-radius: .5rem;
   box-shadow: 0 0 0 .1rem #fff;
@@ -2280,7 +2280,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .bar .bar-item {
-  background: blue;
+  background: #5959ff;
   color: #fff;
   display: block;
   -ms-flex-negative: 0;
@@ -2323,7 +2323,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .bar-slider .bar-slider-btn {
-  background: blue;
+  background: #5959ff;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -2336,7 +2336,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .bar-slider .bar-slider-btn:active {
-  box-shadow: 0 0 0 .1rem blue;
+  box-shadow: 0 0 0 .1rem #5959ff;
 }
 
 .card {
@@ -2406,7 +2406,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .chip.active {
-  background: blue;
+  background: #5959ff;
   color: #fff;
 }
 
@@ -2507,14 +2507,14 @@ summary.accordion-header::-webkit-details-marker {
 
 .menu .menu-item > a:focus,
 .menu .menu-item > a:hover {
-  background: #bfbfff;
-  color: blue;
+  background: white;
+  color: #5959ff;
 }
 
 .menu .menu-item > a:active,
 .menu .menu-item > a.active {
-  background: #bfbfff;
-  color: blue;
+  background: white;
+  color: #5959ff;
 }
 
 .menu .menu-item .form-checkbox,
@@ -2649,7 +2649,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .nav .nav-item a:focus,
 .nav .nav-item a:hover {
-  color: blue;
+  color: #5959ff;
 }
 
 .nav .nav-item.active > a {
@@ -2659,7 +2659,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .nav .nav-item.active > a:focus,
 .nav .nav-item.active > a:hover {
-  color: blue;
+  color: #5959ff;
 }
 
 .nav .nav {
@@ -2693,7 +2693,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .pagination .page-item a:focus,
 .pagination .page-item a:hover {
-  color: blue;
+  color: #5959ff;
 }
 
 .pagination .page-item.disabled a {
@@ -2703,7 +2703,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .pagination .page-item.active a {
-  background: blue;
+  background: #5959ff;
   color: #fff;
 }
 
@@ -2833,7 +2833,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .step .step-item:not(:first-child)::before {
-  background: blue;
+  background: #5959ff;
   content: "";
   height: 2px;
   left: -50%;
@@ -2843,14 +2843,14 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .step .step-item a {
-  color: blue;
+  color: #5959ff;
   display: inline-block;
   padding: 20px 10px 0;
   text-decoration: none;
 }
 
 .step .step-item a::before {
-  background: blue;
+  background: #5959ff;
   border: .1rem solid #fff;
   border-radius: 50%;
   content: "";
@@ -2866,7 +2866,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .step .step-item.active a::before {
   background: #fff;
-  border: .1rem solid blue;
+  border: .1rem solid #5959ff;
 }
 
 .step .step-item.active ~ .step-item::before {
@@ -2908,13 +2908,13 @@ summary.accordion-header::-webkit-details-marker {
 
 .tab .tab-item a:focus,
 .tab .tab-item a:hover {
-  color: blue;
+  color: #5959ff;
 }
 
 .tab .tab-item.active a,
 .tab .tab-item a.active {
-  border-bottom-color: blue;
-  color: blue;
+  border-bottom-color: #5959ff;
+  color: #5959ff;
 }
 
 .tab .tab-item.tab-action {
@@ -3010,8 +3010,8 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .toast.toast-primary {
-  background: rgba(0, 0, 255, .95);
-  border-color: blue;
+  background: rgba(89, 89, 255, .95);
+  border-color: #5959ff;
 }
 
 .toast.toast-success {
@@ -3141,29 +3141,29 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .text-primary {
-  color: blue !important;
+  color: #5959ff !important;
 }
 
 a.text-primary:focus,
 a.text-primary:hover {
-  color: #0000e6;
+  color: #4040ff;
 }
 
 a.text-primary:visited {
-  color: #1a1aff;
+  color: #7373ff;
 }
 
 .text-secondary {
-  color: #b0b0ff !important;
+  color: #f7f7f7 !important;
 }
 
 a.text-secondary:focus,
 a.text-secondary:hover {
-  color: #9696ff;
+  color: #ebebeb;
 }
 
 a.text-secondary:visited {
-  color: #c9c9ff;
+  color: white;
 }
 
 .text-gray {
@@ -3245,12 +3245,11 @@ a.text-error:visited {
 }
 
 .bg-primary {
-  background: blue !important;
-  color: #fff;
+  background: #5959ff !important;
 }
 
 .bg-secondary {
-  background: #bfbfff !important;
+  background: white !important;
 }
 
 .bg-dark {
@@ -3417,7 +3416,7 @@ a.text-error:visited {
 .loading::after {
   animation: loading 500ms infinite linear;
   background: transparent;
-  border: .1rem solid blue;
+  border: .1rem solid #5959ff;
   border-radius: 50%;
   border-right-color: transparent;
   border-top-color: transparent;

@@ -16,8 +16,8 @@
 }
 
 .form-autocomplete .form-autocomplete-input.is-focused {
-  border-color: blue; 
-  box-shadow: 0 0 0 .2rem rgba(0, 0, 255, .2);
+  border-color: #5959ff; 
+  box-shadow: 0 0 0 .2rem rgba(89, 89, 255, .2);
 }
 
 .form-autocomplete .form-autocomplete-input .form-input {
@@ -128,26 +128,26 @@
 }
 
 .calendar .calendar-date .date-item.date-today {
-  border-color: #b0b0ff;
-  color: blue;
+  border-color: #f7f7f7;
+  color: #5959ff;
 }
 
 .calendar .calendar-date .date-item:focus {
-  box-shadow: 0 0 0 .2rem rgba(0, 0, 255, .2);
+  box-shadow: 0 0 0 .2rem rgba(89, 89, 255, .2);
 }
 
 .calendar .calendar-date .date-item:focus,
 .calendar .calendar-date .date-item:hover {
-  background: #cfcfff;
-  border-color: #b0b0ff;
-  color: blue;
+  background: white;
+  border-color: #f7f7f7;
+  color: #5959ff;
   text-decoration: none;
 }
 
 .calendar .calendar-date .date-item:active,
 .calendar .calendar-date .date-item.active {
-  background: #0000f0;
-  border-color: #0000d6;
+  background: #4a4aff;
+  border-color: #3030ff;
   color: #fff;
 }
 
@@ -179,7 +179,7 @@
 }
 
 .calendar .calendar-range::before {
-  background: #bfbfff;
+  background: white;
   content: "";
   height: 1.4rem;
   left: 0;
@@ -199,13 +199,13 @@
 
 .calendar .calendar-range.range-start .date-item,
 .calendar .calendar-range.range-end .date-item {
-  background: #0000f0;
-  border-color: #0000d6;
+  background: #4a4aff;
+  border-color: #3030ff;
   color: #fff;
 }
 
 .calendar .calendar-range .date-item {
-  color: blue;
+  color: #5959ff;
 }
 
 .calendar.calendar-lg .calendar-body {
@@ -535,7 +535,7 @@
 .filter .filter-tag#tag-6:checked ~ .filter-nav .chip[for="tag-6"],
 .filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"],
 .filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"] {
-  background: blue;
+  background: #5959ff;
   color: #fff;
 }
 
@@ -851,7 +851,7 @@
   background: #ebebeb;
   border: 0;
   border-radius: .05rem;
-  color: blue;
+  color: #5959ff;
   height: .2rem;
   position: relative;
   width: 100%;
@@ -863,18 +863,18 @@
 }
 
 .progress::-webkit-progress-value {
-  background: blue;
+  background: #5959ff;
   border-radius: .05rem;
 }
 
 .progress::-moz-progress-bar {
-  background: blue;
+  background: #5959ff;
   border-radius: .05rem;
 }
 
 .progress:indeterminate {
   animation: progress-indeterminate 1.5s linear infinite;
-  background: #ebebeb linear-gradient(to right, blue 30%, #ebebeb 30%) top left/150% 150% no-repeat;
+  background: #ebebeb linear-gradient(to right, #5959ff 30%, #ebebeb 30%) top left/150% 150% no-repeat;
 }
 
 .progress:indeterminate::-moz-progress-bar {
@@ -901,7 +901,7 @@
 }
 
 .slider:focus {
-  box-shadow: 0 0 0 .2rem rgba(0, 0, 255, .2);
+  box-shadow: 0 0 0 .2rem rgba(89, 89, 255, .2);
   outline: none;
 }
 
@@ -911,7 +911,7 @@
 
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background: blue;
+  background: #5959ff;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -922,7 +922,7 @@
 }
 
 .slider::-moz-range-thumb {
-  background: blue;
+  background: #5959ff;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -932,7 +932,7 @@
 }
 
 .slider::-ms-thumb {
-  background: blue;
+  background: #5959ff;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -993,7 +993,7 @@
 }
 
 .slider::-ms-fill-lower {
-  background: blue;
+  background: #5959ff;
 }
 
 .timeline .timeline-item {
@@ -1039,7 +1039,7 @@
 }
 
 .timeline .timeline-item .timeline-icon::before {
-  border: .1rem solid blue;
+  border: .1rem solid #5959ff;
   border-radius: 50%;
   content: "";
   display: block;
@@ -1051,7 +1051,7 @@
 }
 
 .timeline .timeline-item .timeline-icon.icon-lg {
-  background: blue;
+  background: #5959ff;
   line-height: 1.2rem;
 }
 

@@ -92,7 +92,7 @@
 }
 
 .docs-content .anchor {
-  color: #0f0fff;
+  color: #6868ff;
   display: none;
   margin-left: .2rem;
   padding: 0 .2rem;
@@ -212,7 +212,7 @@
 .docs-content .code .hljs-class,
 .docs-content .code .hljs-string,
 .docs-content .code .hljs-number {
-  color: blue;
+  color: #5959ff;
 }
 
 .docs-content .code .hljs-name,
@@ -253,7 +253,7 @@
 .docs-content .example-tile-icon {
   align-content: space-around;
   align-items: center;
-  background: blue;
+  background: #5959ff;
   border-radius: .05rem;
   color: #fff;
   display: flex;
@@ -290,7 +290,7 @@
 }
 
 .docs-brand {
-  color: blue;
+  color: #5959ff;
   height: 2rem;
   left: 1.5rem;
   position: fixed;
@@ -379,7 +379,7 @@
 }
 
 .section-hero .docs-brand h2 {
-  color: blue;
+  color: #5959ff;
 }
 
 .section-hero .column {
@@ -452,7 +452,7 @@
 }
 
 .grid-hero .card .card-title {
-  color: blue;
+  color: #5959ff;
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 0;
@@ -770,7 +770,7 @@
 
 .algolia-autocomplete .ds-dropdown-menu .ds-suggestion.ds-cursor .algolia-docsearch-suggestion.suggestion-layout-simple,
 .algolia-autocomplete .ds-dropdown-menu .ds-suggestion.ds-cursor .algolia-docsearch-suggestion:not(.suggestion-layout-simple) .algolia-docsearch-suggestion--content {
-  background-color: rgba(0, 0, 255, .05);
+  background-color: rgba(89, 89, 255, .05);
 }
 
 .algolia-autocomplete .ds-dropdown-menu [class^=ds-dataset-] {
@@ -795,22 +795,22 @@
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--highlight {
-  background: rgba(0, 0, 255, .1);
-  color: blue;
+  background: rgba(89, 89, 255, .1);
+  color: #5959ff;
   padding: .1em .05em;
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--category-header-lvl0 .algolia-docsearch-suggestion--highlight,
 .algolia-autocomplete .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--category-header-lvl1 .algolia-docsearch-suggestion--highlight {
   background: inherit;
-  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 255, .8);
+  box-shadow: inset 0 -2px 0 0 rgba(89, 89, 255, .8);
   color: inherit; 
   padding: 0 0 1px;
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--text .algolia-docsearch-suggestion--highlight {
   background: inherit;
-  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 255, .8);
+  box-shadow: inset 0 -2px 0 0 rgba(89, 89, 255, .8);
   color: inherit; 
   padding: 0 0 1px;
 }
