@@ -387,7 +387,7 @@ abbr[title] {
 
 kbd {
   background: black;
-  border-radius: .05rem;
+  border-radius: .1rem;
   color: #fff;
   font-size: .7rem; 
   line-height: 1.25;
@@ -397,13 +397,13 @@ kbd {
 mark {
   background: #ffe9b3;
   border-bottom: .05rem solid #ffd367;
-  border-radius: .05rem;
+  border-radius: .1rem;
   color: #0d0d0d;
   padding: .05rem .1rem 0;
 }
 
 blockquote {
-  border-left: .1rem solid #a6a6a6;
+  border-left: .1rem solid #d9d9d9;
   margin-left: 0;
   padding: .4rem .8rem;
 }
@@ -542,7 +542,7 @@ html:lang(ko),
 
 .table td,
 .table th {
-  border-bottom: .05rem solid #a6a6a6;
+  border-bottom: .05rem solid #d9d9d9;
   padding: .6rem .4rem;
 }
 
@@ -556,7 +556,7 @@ html:lang(ko),
   appearance: none;
   background: #fff;
   border: .05rem solid #5959ff;
-  border-radius: .05rem;
+  border-radius: .1rem;
   color: #5959ff;
   cursor: pointer;
   display: inline-block;
@@ -840,8 +840,8 @@ legend {
   appearance: none;
   background: #fff;
   background-image: none;
-  border: .05rem solid #8c8c8c;
-  border-radius: .05rem;
+  border: .05rem solid #bfbfbf;
+  border-radius: .1rem;
   color: #0d0d0d;
   display: block;
   font-size: .8rem;
@@ -921,8 +921,8 @@ textarea.form-input.input-sm {
   -moz-appearance: none;
   appearance: none;
   background: #fff; 
-  border: .05rem solid #8c8c8c;
-  border-radius: .05rem;
+  border: .05rem solid #bfbfbf;
+  border-radius: .1rem;
   color: inherit;
   font-size: .8rem;
   height: 2rem;
@@ -1041,7 +1041,7 @@ textarea.form-input.input-sm {
 .form-checkbox .form-icon,
 .form-radio .form-icon,
 .form-switch .form-icon {
-  border: .05rem solid #8c8c8c;
+  border: .05rem solid #bfbfbf;
   cursor: pointer;
   display: inline-block;
   position: absolute;
@@ -1077,7 +1077,7 @@ textarea.form-input.input-sm {
 }
 
 .form-checkbox .form-icon {
-  border-radius: .05rem;
+  border-radius: .1rem;
 }
 
 .form-checkbox input:checked + .form-icon::before {
@@ -1171,8 +1171,8 @@ textarea.form-input.input-sm {
 
 .input-group .input-group-addon {
   background: #f2f2f2;
-  border: .05rem solid #8c8c8c;
-  border-radius: .05rem;
+  border: .05rem solid #bfbfbf;
+  border-radius: .1rem;
   line-height: 1.2rem;
   padding: .35rem .6rem;
   white-space: nowrap;
@@ -1373,7 +1373,7 @@ input.disabled + .form-icon {
 
 .label {
   background: #ebebeb;
-  border-radius: .05rem;
+  border-radius: .1rem;
   color: #1a1919;
   display: inline-block; 
   line-height: 1.25;
@@ -1413,7 +1413,7 @@ input.disabled + .form-icon {
 
 code {
   background: #fcf2f2;
-  border-radius: .05rem;
+  border-radius: .1rem;
   color: #d73e48;
   font-size: 85%; 
   line-height: 1.25;
@@ -1421,7 +1421,7 @@ code {
 }
 
 .code {
-  border-radius: .05rem;
+  border-radius: .1rem;
   color: #0d0d0d;
   position: relative;
 }
@@ -2267,7 +2267,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .bar {
   background: #ebebeb;
-  border-radius: .05rem;
+  border-radius: .1rem;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-wrap: nowrap;
@@ -2295,13 +2295,13 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .bar .bar-item:first-child {
-  border-bottom-left-radius: .05rem;
-  border-top-left-radius: .05rem;
+  border-bottom-left-radius: .1rem;
+  border-top-left-radius: .1rem;
 }
 
 .bar .bar-item:last-child {
-  border-bottom-right-radius: .05rem;
-  border-top-right-radius: .05rem;
+  border-bottom-right-radius: .1rem;
+  border-top-right-radius: .1rem;
   -ms-flex-negative: 1;
   flex-shrink: 1;
 }
@@ -2342,8 +2342,8 @@ summary.accordion-header::-webkit-details-marker {
 
 .card {
   background: #fff;
-  border: .05rem solid #a6a6a6;
-  border-radius: .05rem;
+  border: .05rem solid #d9d9d9;
+  border-radius: .1rem;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-direction: column;
@@ -2377,13 +2377,13 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .card .card-image:first-child img {
-  border-top-left-radius: .05rem;
-  border-top-right-radius: .05rem;
+  border-top-left-radius: .1rem;
+  border-top-right-radius: .1rem;
 }
 
 .card .card-image:last-child img {
-  border-bottom-left-radius: .05rem;
-  border-bottom-right-radius: .05rem;
+  border-bottom-left-radius: .1rem;
+  border-bottom-right-radius: .1rem;
 }
 
 .chip {
@@ -2448,13 +2448,13 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .dropdown .btn-group .dropdown-toggle:nth-last-child(2) {
-  border-bottom-right-radius: .05rem;
-  border-top-right-radius: .05rem;
+  border-bottom-right-radius: .1rem;
+  border-top-right-radius: .1rem;
 }
 
 .empty {
   background: #f2f2f2;
-  border-radius: .05rem;
+  border-radius: .1rem;
   color: #404040;
   padding: 3.2rem 1.6rem; 
   text-align: center;
@@ -2475,7 +2475,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .menu {
   background: #fff;
-  border-radius: .05rem;
+  border-radius: .1rem;
   box-shadow: 0 .05rem .2rem rgba(0, 0, 0, .3);
   list-style: none;
   margin: 0;
@@ -2498,7 +2498,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .menu .menu-item > a {
-  border-radius: .05rem;
+  border-radius: .1rem;
   color: inherit;
   display: block;
   margin: 0 -.4rem;
@@ -2601,7 +2601,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .modal-container {
   background: #fff;
-  border-radius: .05rem;
+  border-radius: .1rem;
   box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .3);
   display: flex;
   display: -ms-flexbox;
@@ -2686,7 +2686,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .pagination .page-item a {
-  border-radius: .05rem;
+  border-radius: .1rem;
   display: inline-block;
   padding: .2rem .4rem;
   text-decoration: none;
@@ -2728,8 +2728,8 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .panel {
-  border: .05rem solid #a6a6a6;
-  border-radius: .05rem;
+  border: .05rem solid #d9d9d9;
+  border-radius: .1rem;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-direction: column;
@@ -2871,7 +2871,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .step .step-item.active ~ .step-item::before {
-  background: #a6a6a6;
+  background: #d9d9d9;
 }
 
 .step .step-item.active ~ .step-item a {
@@ -2879,12 +2879,12 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .step .step-item.active ~ .step-item a::before {
-  background: #a6a6a6;
+  background: #d9d9d9;
 }
 
 .tab {
   align-items: center;
-  border-bottom: .05rem solid #a6a6a6;
+  border-bottom: .05rem solid #d9d9d9;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-align: center;
@@ -3003,7 +3003,7 @@ summary.accordion-header::-webkit-details-marker {
   background: rgba(0, 0, 0, .95);
   border: .05rem solid black;
   border-color: black;
-  border-radius: .05rem;
+  border-radius: .1rem;
   color: #fff;
   display: block;
   padding: .8rem;
@@ -3056,7 +3056,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .tooltip::after {
   background: rgba(0, 0, 0, .95);
-  border-radius: .05rem;
+  border-radius: .1rem;
   bottom: 100%;
   color: #fff;
   content: attr(data-tooltip);
@@ -3374,7 +3374,7 @@ a.text-error:visited {
 }
 
 .divider {
-  border-top: .05rem solid #bababa;
+  border-top: .05rem solid #ededed;
   height: .05rem;
   margin: .4rem 0;
 }
@@ -3389,7 +3389,7 @@ a.text-error:visited {
 }
 
 .divider-vert::before {
-  border-left: .05rem solid #a6a6a6;
+  border-left: .05rem solid #d9d9d9;
   bottom: .4rem;
   content: "";
   display: block;
@@ -3794,7 +3794,7 @@ a.text-error:visited {
 }
 
 .s-rounded {
-  border-radius: .05rem;
+  border-radius: .1rem;
 }
 
 .s-circle {
@@ -3930,8 +3930,8 @@ a.text-error:visited {
 }
 
 .calendar {
-  border: .05rem solid #a6a6a6;
-  border-radius: .05rem;
+  border: .05rem solid #d9d9d9;
+  border-radius: .1rem;
   display: block;
   min-width: 280px;
 }
@@ -3939,8 +3939,8 @@ a.text-error:visited {
 .calendar .calendar-nav {
   align-items: center;
   background: #f2f2f2;
-  border-top-left-radius: .05rem;
-  border-top-right-radius: .05rem;
+  border-top-left-radius: .1rem;
+  border-top-right-radius: .1rem;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-align: center;
@@ -3968,7 +3968,7 @@ a.text-error:visited {
 
 .calendar .calendar-header {
   background: #f2f2f2;
-  border-bottom: .05rem solid #a6a6a6;
+  border-bottom: .05rem solid #d9d9d9;
   color: #8c8c8c;
   font-size: .7rem;
   text-align: center;
@@ -4092,8 +4092,8 @@ a.text-error:visited {
 }
 
 .calendar.calendar-lg .calendar-body .calendar-date {
-  border-bottom: .05rem solid #a6a6a6;
-  border-right: .05rem solid #a6a6a6;
+  border-bottom: .05rem solid #d9d9d9;
+  border-right: .05rem solid #d9d9d9;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-direction: column;
@@ -4140,7 +4140,7 @@ a.text-error:visited {
 }
 
 .calendar.calendar-lg .calendar-event {
-  border-radius: .05rem;
+  border-radius: .1rem;
   display: block;
   font-size: .7rem;
   margin: .1rem auto;
@@ -4446,7 +4446,7 @@ a.text-error:visited {
   appearance: none;
   background: #f2f2f2;
   border: 0;
-  border-radius: .05rem;
+  border-radius: .1rem;
   display: block;
   height: .8rem; 
   width: 100%;
@@ -4460,7 +4460,7 @@ a.text-error:visited {
 .meter::-webkit-meter-optimum-value,
 .meter::-webkit-meter-suboptimum-value,
 .meter::-webkit-meter-even-less-good-value {
-  border-radius: .05rem;
+  border-radius: .1rem;
 }
 
 .meter::-webkit-meter-bar {
@@ -4483,7 +4483,7 @@ a.text-error:visited {
 .meter:-moz-meter-optimum,
 .meter:-moz-meter-sub-optimum,
 .meter:-moz-meter-sub-sub-optimum {
-  border-radius: .05rem;
+  border-radius: .1rem;
 }
 
 .meter:-moz-meter-optimum::-moz-meter-bar {
@@ -4729,7 +4729,7 @@ a.text-error:visited {
   appearance: none;
   background: #ebebeb;
   border: 0;
-  border-radius: .05rem;
+  border-radius: .1rem;
   color: #5959ff;
   height: .2rem;
   position: relative;
@@ -4738,17 +4738,17 @@ a.text-error:visited {
 
 .progress::-webkit-progress-bar {
   background: transparent;
-  border-radius: .05rem;
+  border-radius: .1rem;
 }
 
 .progress::-webkit-progress-value {
   background: #5959ff;
-  border-radius: .05rem;
+  border-radius: .1rem;
 }
 
 .progress::-moz-progress-bar {
   background: #5959ff;
-  border-radius: .05rem;
+  border-radius: .1rem;
 }
 
 .progress:indeterminate {
@@ -4852,21 +4852,21 @@ a.text-error:visited {
 
 .slider::-webkit-slider-runnable-track {
   background: #ebebeb;
-  border-radius: .05rem;
+  border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-moz-range-track {
   background: #ebebeb;
-  border-radius: .05rem;
+  border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-track {
   background: #ebebeb;
-  border-radius: .05rem;
+  border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
@@ -4883,7 +4883,7 @@ a.text-error:visited {
 }
 
 .timeline .timeline-item::before {
-  background: #a6a6a6;
+  background: #d9d9d9;
   content: "";
   height: 100%;
   left: 11px;
