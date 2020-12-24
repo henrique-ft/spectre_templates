@@ -3,7 +3,6 @@
   @include toast-variant($dark-color);
   border: $border-width solid $dark-color;
   border-radius: $border-radius;
-  color: $light-color;
   display: block;
   padding: $layout-spacing;
   width: 100%;
@@ -27,7 +26,7 @@
   a {
     color: $light-color;
     text-decoration: underline;
-    
+
     &:focus,
     &:hover,
     &:active,
